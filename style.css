@@ -1,7 +1,31 @@
 body {
-    background-color: #142324;
+    background-color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+
+    /*.dark-Mode {
+        background-color: black;
+        color: white
+    }
+
+    .light-Mode {
+        background-color: white;
+        color: black;
+    }*/
+}
+
+#darkModeButton {
+    position: fixed;
+
+    top: 1vh;
+    right: 6vw;
+}
+
+#lightModeButton {
+    position: fixed;
+
+    top: 1vh;
+    right: 1vw;
 }
 
 .background {

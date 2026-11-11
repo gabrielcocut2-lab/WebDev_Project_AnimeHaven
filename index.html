@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <title>Anime Haven</title>
@@ -7,41 +7,50 @@
         
         <style>
             p {
-                color: red;
+                color: white;
             }
+
             h3 {
                 color: #42b31d;
             }
+
             details {
-                color: #2a65a1;
+                color: #65A0D7;
             }
+
             a:hover {
-                color: #f50f0f;
+                color: #FF7070;
 }
             a:visited {
-                color: green;
+                color: #7AFF7A;
 }
         </style>
     </head>
-    <body>
-        <h1 style="color: #39a6ad; text-align: center;;">Anime Haven</h1>
-        <h2 style="color: rgb(199, 164, 40); text-align: center;">Welcome to the World's Best Anime Website on the Internet</h2>
+    <body class="light-Mode">
+        <main>
+            <h1 style="color: #39a6ad; text-align: center;;">Anime Haven</h1>
+            <button id="darkModeButton" onclick="darkMode()">Dark Mode</button>
+            <button id="lightModeButton" onclick="lightMode()">Light Mode</button>
+            <h2 style="color: rgb(199, 164, 40); text-align: center;">Welcome to the World's Best Anime Website on the Internet</h2>
 
-        <img id="AnimePhoto" src="https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anime photo">
-        <p style="text-align: center;">Photo by Dex Ezekiel on Unsplash</p>
+            <img id="AnimePhoto" src="https://images.unsplash.com/photo-1613376023733-0a73315d9b06?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Anime photo">
+            <p style="text-align: center;">Photo by Dex Ezekiel on Unsplash</p>
 
-        <button id="ButtonBorder">Click if you like the photo</button>
-        
-        <h3><em>New Releases</em></h3>
-        <details id="NewReleases">
-            <p>Not Yet Implemented</p>
-        </details>
+            <button id="ButtonBorder">Click if you like the photo</button>
+            
+            <h3><em>New Releases</em></h3>
+            <details id="NewReleases">
+                <p>Not Yet Implemented</p>
+            </details>
 
-        <h3><em>Popular Series</em></h3>
-        <details id="PopularSeries">
-            <p>Not Yet Implemented</p>
-        </details>
+            <h3><em>Popular Series</em></h3>
+            <details id="PopularSeries">
+                <p>Not Yet Implemented</p>
+            </details>
 
-        <p><a href="about.html">Go to About Page</a></p>
+            <p><a href="about.html">Go to About Page</a></p>
+
+            <script src="js/main.js"></script>
+        </main>
     </body>
 </html>
